@@ -1,4 +1,4 @@
-"""Lab 0 - genera datasets de prueba (ventas, compras, movimientos bancarios).
+"""Lab 1 - genera datasets de prueba (ventas, compras, movimientos bancarios).
 
 Crea 3 archivos CSV en data/ para usarlos como archivos de prueba al subirlos
 a S3 con el AWS CLI o los scripts de src/upload_and_list.*.

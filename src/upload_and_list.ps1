@@ -1,5 +1,5 @@
 <#
-Lab 0 - AWS CLI: crea (si hace falta) un bucket S3, sube un archivo y lista el contenido.
+Lab 1 - AWS CLI: crea (si hace falta) un bucket S3, sube un archivo y lista el contenido.
 
 Uso:
     .\upload_and_list.ps1 -BucketName <nombre-bucket> -FilePath <ruta-archivo-local> [-Region <region>]

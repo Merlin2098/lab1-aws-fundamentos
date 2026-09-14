@@ -1,4 +1,4 @@
-# Lab 0 — AWS CLI: subir y listar archivos en S3
+# Lab 1 — AWS CLI: subir y listar archivos en S3
 
 Primer laboratorio del bootcamp. El objetivo es que cada alumno use el AWS
 CLI para crear un bucket S3, subir un archivo y listar el contenido del
@@ -20,7 +20,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 Hay dos formas de configurar las credenciales: con `aws configure` (perfil
 persistente, ver abajo) o con variables de entorno a partir de un archivo
-`.env.credentials` — ver [lab0-aws-credentials.md](lab0-aws-credentials.md)
+`.env.credentials` — ver [lab1-aws-credentials.md](lab1-aws-credentials.md)
 para esa opción, incluyendo cómo validarlas en PowerShell y Git Bash.
 
 Cada alumno configura su propio perfil con sus access keys (Access Key ID y

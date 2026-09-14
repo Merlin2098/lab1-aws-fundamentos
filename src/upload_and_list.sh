@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Lab 0 - AWS CLI: crea (si hace falta) un bucket S3, sube un archivo y lista el contenido.
+# Lab 1 - AWS CLI: crea (si hace falta) un bucket S3, sube un archivo y lista el contenido.
 #
 # Uso:
 #   ./upload_and_list.sh <nombre-bucket> <ruta-archivo-local> [region]

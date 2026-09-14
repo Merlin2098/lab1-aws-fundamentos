@@ -1,4 +1,4 @@
-# Lab 0 — Configurar credenciales de AWS (env vars)
+# Lab 1 — Configurar credenciales de AWS (env vars)
 
 Guía alternativa a `aws configure` para setear las credenciales de AWS como
 **variables de entorno** en la sesión de terminal, a partir de un archivo de
@@ -151,5 +151,5 @@ estas últimas tienen prioridad — no hace falta borrar el perfil anterior.
 ## Siguiente paso
 
 Con las credenciales validadas, continuar con
-[lab0-s3-cli.md](lab0-s3-cli.md) para crear el bucket, subir un archivo y
+[lab1-s3-cli.md](lab1-s3-cli.md) para crear el bucket, subir un archivo y
 listar objetos.
