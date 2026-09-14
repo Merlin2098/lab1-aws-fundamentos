@@ -19,6 +19,15 @@ el instructor).
   un script (bash o PowerShell).
 - Cómo generar datasets de prueba en Python para tener algo real que subir.
 
+## Cómo empezar
+
+Cloná el repositorio y entrá a la carpeta del proyecto:
+
+```bash
+git clone https://github.com/Merlin2098/lab1-aws-fundamentos.git
+cd lab1-aws-fundamentos
+```
+
 ## Mapa del proyecto
 
 ```
