@@ -35,7 +35,8 @@ lab0/
 ├── README.md                          <- estás acá
 ├── docs/
 │   ├── lab1-aws-credentials.md        <- cómo configurar y validar credenciales
-│   └── lab1-s3-cli.md                 <- comandos AWS CLI para S3 (crear bucket, subir, listar)
+│   ├── lab1-s3-cli.md                 <- comandos AWS CLI para S3 (crear bucket, subir, listar)
+│   └── lab1-ejecutar-scripts.md       <- cómo correr los scripts en Git Bash y PowerShell
 ├── src/
 │   ├── generate_datasets.py           <- genera los CSV de prueba en data/
 │   ├── upload_and_list.sh             <- script bash: crea bucket + sube + lista
@@ -98,7 +99,11 @@ al final.
 Si ya entendiste los comandos manuales y querés repetir el flujo rápido,
 usá uno de los scripts en `src/` — hacen lo mismo que el paso 3 pero en un
 solo comando (crean el bucket si no existe, suben archivo(s) y listan el
-resultado). El único dato que tenés que editar es el nombre del bucket:
+resultado). El único dato que tenés que editar es el nombre del bucket.
+
+Ver **[docs/lab1-ejecutar-scripts.md](docs/lab1-ejecutar-scripts.md)** para
+la sintaxis exacta y los errores más comunes (permisos, política de
+ejecución de PowerShell, etc.). Resumen rápido:
 
 ```bash
 # Git Bash — sube automáticamente los 3 datasets de data/

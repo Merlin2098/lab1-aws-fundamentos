@@ -122,5 +122,5 @@ scripts que automatizan la subida y el listado:
 - `src/upload_and_list.sh` (bash)
 - `src/upload_and_list.ps1` (PowerShell)
 
-Ver las instrucciones de uso dentro de cada script o en su comentario de
-cabecera.
+Ver [lab1-ejecutar-scripts.md](lab1-ejecutar-scripts.md) para la sintaxis
+exacta en Git Bash y PowerShell, y los errores más comunes al ejecutarlos.
