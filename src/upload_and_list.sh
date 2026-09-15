@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-BUCKET_NAME="${1:?Uso: $0 <nombre-bucket> [region]}"
+BUCKET_NAME="${1:?Uso: $0 bootcamp-da-rfuculmana [region]}"
 REGION="${2:-us-east-1}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
