@@ -97,17 +97,17 @@ al final.
 
 Si ya entendiste los comandos manuales y querés repetir el flujo rápido,
 usá uno de los scripts en `src/` — hacen lo mismo que el paso 3 pero en un
-solo comando (crean el bucket si no existe, suben el archivo y listan el
-resultado):
+solo comando (crean el bucket si no existe, suben archivo(s) y listan el
+resultado). El único dato que tenés que editar es el nombre del bucket:
 
 ```bash
-# Git Bash
-./src/upload_and_list.sh <nombre-bucket> ./data/ventas.csv
+# Git Bash — sube automáticamente los 3 datasets de data/
+./src/upload_and_list.sh <nombre-bucket>
 ```
 
 ```powershell
-# PowerShell
-.\src\upload_and_list.ps1 -BucketName <nombre-bucket> -FilePath .\data\ventas.csv
+# PowerShell — sube automáticamente los 3 datasets de data/
+.\src\upload_and_list.ps1 -BucketName <nombre-bucket>
 ```
 
 ## ¿Por dónde empiezo si me trabo?
